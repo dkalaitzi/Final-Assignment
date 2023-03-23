@@ -1,0 +1,15 @@
+Overview
+
+According to the following steps:
+
+1. Run script into workbench
+2. Run query (select * from [table] where date between 2016 and 2019), export in csv file.
+3. Import file in Python, execute the 1st requisition, group by zip code and aggregate by bottles_sold.
+ In order to cross check the results , i create the same query in workbench. In Addition
+ , for the 2nd requirement, i grouped by store_number and aggregate with bottles_sold. This is the moment when
+ i'm having trouble understanding how to generate the output as a percentage.
+
+ Overall, I faced these difficulties:
+ - How to calculate the percentage.
+ - How to make the plots, especially the second one.
+ - How to publish my project to Workerly repository.
